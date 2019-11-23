@@ -60,7 +60,8 @@ foreach($html->find('.js-focus-controls-container') as $row) {
 	}
 ?>
 		<item>
-			<title><?php echo $artist.' — '.$title ?> </title>
+			<title><?php echo $title ?> </title>
+			<author><?php echo $artist ?> </author>
 			<pubDate><?php echo $playdate; ?></pubDate>
 			<link>http://www.last.fm<?php echo $link ?></link>
 			<guid isPermaLink="false"><?php echo $link ?></guid>
